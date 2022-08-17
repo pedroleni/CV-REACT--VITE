@@ -94,7 +94,7 @@ export const CV = {
   languages: {
     language: "English",
     wrlevel: "B1",
-    splevel: "A1",
+    splevel: "A2",
   },
 
 
