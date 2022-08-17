@@ -49,7 +49,7 @@ export const CV = {
       where: "Universidad de Castilla-La Mancha",
     },
     {
-      name: "BACHILLERATO CIENCIAS TECNOLÓGICAS   IES Máximo laguna s",
+      name: "BACHILLERATO CIENCIAS TECNOLÓGICAS   IES Máximo Laguna",
       date: "2011",
       where: "IES Máximo laguna, Santa Cruz de Mudela (Ciudad Real)",
     },
