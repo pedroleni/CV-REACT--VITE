@@ -1,0 +1,28 @@
+
+.name{
+    font-weight: bold;
+}
+
+.education{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(-45deg,#23d5ab7c,#23a5d57e,#df9bb580, #ee765271);
+    animation: gradient 5s ease infinite;
+   
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 25%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,38 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    
+
+  }
+  .card-about {
+    text-align: center;
+    border-radius: 12px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    background: linear-gradient(-45deg,#23d5ab7c,#23a5d57e,#df9bb580, #ee765271);
+    animation: gradient 5s ease infinite;
+  
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 25%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .about .card{
+    width:85%;
+  }
+
+ 

@@ -1,0 +1,33 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .name{
+      font-weight: bold;
+  }
+  .experience-card {
+    text-align: center;
+    border-radius: 12px;
+  
+    background: linear-gradient(-45deg,#23d5ab7c,#23a5d57e,#df9bb580, #ee765271);
+    animation: gradient 5s ease infinite;
+
+    padding: 30px;
+  
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 25%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

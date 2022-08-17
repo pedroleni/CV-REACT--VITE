@@ -1,0 +1,45 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:center ;
+
+    align-items: center;
+    width: 100%;
+    margin-top:30px;
+    padding: 0px;
+  }
+
+  .hero-card{
+    width: 75%;
+    text-align: center;
+    background-color:rgba(240, 248, 255, 0.241) ;
+    border-radius: 20px 20px 20px  20px;
+
+  }
+
+  .name_pedro{
+    font-size: 25px;
+  }
+
+  .hero-image{
+    width: 80%;
+  }
+
+
+
+  img {
+    width: 100%;
+    
+    border-radius: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  h2 {
+    color: black;
+    text-shadow: 2px 2px rgba(240, 248, 255, 0.241);
+  }
+  a {
+    color: #0b0089;
+    text-decoration: none;
+  }
